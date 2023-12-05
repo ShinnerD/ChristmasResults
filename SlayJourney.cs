@@ -11,6 +11,15 @@ public class SlayJourney
     var dancer = new Reindeer { Name = "Dancer", IsFitForJourney = true };
     var vixen = new Reindeer { Name = "Vixen", IsFitForJourney = true };
 
+    reindeerList.Add(prancer);
+    reindeerList.Add(dancer);
+    reindeerList.Add(vixen);
+
+    foreach (var reindeer in reindeerList)
+    {
+      
+    }
+
     // Fill in the code of this method to perform health checks on Santa's reindeer
     // - Check if each reindeer is fit for the Christmas Eve journey
     // - Use Fluent Results to report any health issues
